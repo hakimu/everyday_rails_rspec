@@ -14,6 +14,8 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
+gem 'newrelic_rpm'
+
 group :development, :test do
   gem 'rspec-rails', '~> 3.8.0'
   gem 'factory_bot_rails', '~> 4.10.0'
