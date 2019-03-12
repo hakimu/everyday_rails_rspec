@@ -6,6 +6,7 @@ RSpec.describe ProjectsController, type: :controller do
       before do
         @user = FactoryBot.create(:user)
       end
+
       it 'responds successfully' do
         sign_in @user
         get :index
